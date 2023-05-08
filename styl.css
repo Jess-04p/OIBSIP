@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  h2{
+    text-align: center;
+  }
+  body{
+    padding-left: 120px;
+    padding-right: 120px;
+    background-image: url('https://th.bing.com/th/id/R.0a6f145b8f33eaaf7334fb9b2c135b2a?rik=405CGkCWBGsuTw&riu=http%3a%2f%2fwww.pptback.com%2fuploads%2fabstract-shades-of-pale-blue-backgrounds-powerpoint.jpg&ehk=Btt%2ffLN79T7e1rTf02W%2b6wowfHFfMNAqf%2fkKhsQhtLA%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #a
+  {
+    font-size: 45px;
+    padding-left: 250px;
+    padding-right:250px;
+  }
+  #b{
+    padding-left: 450px;
+    color: orangered;
+  }
+  img{
+    height:400px;
+    width: 500px;
+    
+  }
+  #section{
+    padding-left: 80px;
+    padding-right: 80px;
+  }

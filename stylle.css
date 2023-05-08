@@ -1,0 +1,79 @@
+
+body {
+  font-family: Arial, sans-serif;
+  
+  background-image: url('https://th.bing.com/th/id/R.310f4f2f0e60635d96eab99492341847?rik=mppDbksPokOAZw&riu=http%3a%2f%2fwww.wallpapers4u.org%2fwp-content%2fuploads%2fline_shade_light_bright_16423_1920x1080.jpg&ehk=5iMFHIJOlSO1%2fb43D5Jdc08Pft3PFVNtihiYtuqsJLc%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2{
+    font-size:35px;
+}
+
+#input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#task-input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#add-btn {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#tasks-container {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li.completed {
+  background-color: #ddd;
+}
+
+li.completed input[type="checkbox"] {
+  margin-right: 10px;
+  text-decoration: line-through;
+}
